@@ -1,0 +1,21 @@
+.button-filter {
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: none;
+  font-family: inherit;
+  background-color: $primary-background-color;
+  color: $title-text-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: background-color $anim-duration $anim-timing-function,
+    color $anim-duration $anim-timing-function;
+  &:hover,
+  &:focus {
+    background-color: $accent-button-color;
+    color: $primary-white-color;
+  }
+}
