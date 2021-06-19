@@ -26,6 +26,7 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  z-index: 1;
 
   &.is-open {
     opacity: 1;
@@ -59,6 +60,7 @@
 
 .mobile-menu-social-list {
   display: flex;
+  flex-wrap: wrap;
   &__item {
     display: flex;
   }

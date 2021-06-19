@@ -1,9 +1,9 @@
 .modal {
   position: absolute;
   padding: 40px;
-  top: 50%;
+  top: 10%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
   max-width: 450px;
   max-height: 609px;
   @media screen and (max-width: 767px) {
