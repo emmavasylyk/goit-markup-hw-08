@@ -81,5 +81,8 @@
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: $accent-color;
+    @media screen and (max-width: 479px) {
+      font-size: 12px;
+    }
   }
 }
